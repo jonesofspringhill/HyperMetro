@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Nothing will happen
+- text: The program will not be compiled.
+- text: The program will be compiled and successfully started.
+- text: The program will be compiled but not started.
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2073#comment
+status: Solved
+record: -1

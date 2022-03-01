@@ -1,0 +1,39 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Object
+- text: String
+- text: Class
+- text: Integer
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+- name: src/dataset_91065.txt
+  visible: true
+  learner_created: true
+- name: src/dataset_91033.txt
+  visible: true
+  learner_created: true
+- name: src/dataset_91022.txt
+  visible: true
+  learner_created: true
+- name: src/dataset_91007.txt
+  visible: true
+  learner_created: true
+- name: src/dataset_91069.txt
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/11180#comment
+status: Unchecked
+record: -1
